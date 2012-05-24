@@ -54,3 +54,12 @@ var urlCheck= /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:
 				return urlIncorrect;	
 	}
 };
+
+// 5 - function given a string that is a list of things separated by a given string, as well as another string separator, return a string with the first separator changed to the second: "a,b,c" + "," + "/" → "a/b/c".
+
+
+function partsNeeded() {
+	var parts = myParts.replace(/./g. slash); // forward slash di not work for me
+	return parts;
+
+};

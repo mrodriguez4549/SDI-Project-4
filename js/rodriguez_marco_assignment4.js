@@ -34,3 +34,8 @@ console.log(titleWord);
 
 var validURL = checkURL("http://google.com"); // outputs calid email pattern
 console.log(validURL);
+
+// 5 - function given a string that is a list
+
+var myParts = "control arms, heads, cam, bolt ons, headers, duals, torque converter";
+console.log("These are the parts I am needing: " + partsNeeded()); // array of parts output
