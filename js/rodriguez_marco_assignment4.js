@@ -15,3 +15,19 @@ console.log(checkPhone("972-228-7899")); // follows number pattern
 
 
 console.log(" ");
+
+// 2 - function that checks if email
+ 
+console.log(checkEmail("mdz99@email.com")); // true, it follows email pattern
+console.log(checkEmail("mrodz@email.com")); // true, it follows email pattern
+console.log(checkEmail("yo_____--@com")); // false, does not follow the email pattern
+
+console.log(" ");
+
+// 3 - function Title-case a string
+
+var titleWord = "full sail university"; // captialize the first letter of each word 
+titleWord = titleWord.titleCase();
+console.log(titleWord);
+
+// 4 - function checks string url

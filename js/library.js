@@ -29,3 +29,13 @@ var checkEmail = function(validate) {
 			return false;
 		}
 };
+
+// 3 - function Title-case a string (split into words, then uppercase the first letter of each word)
+ 
+String.prototype.titleCase = function(){ 
+	for(characters in eachWord){ // character for each word
+		myString += ' ' + eachWord[characters].substr(0,1).toUpperCase() + eachWord[characters].substr(1, eachWord[characters].length);
+		// uppercase first letter of each word
+	}
+		return myString;
+};
