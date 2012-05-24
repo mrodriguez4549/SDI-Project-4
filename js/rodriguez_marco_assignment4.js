@@ -31,3 +31,6 @@ titleWord = titleWord.titleCase();
 console.log(titleWord);
 
 // 4 - function checks string url
+
+var validURL = checkURL("http://google.com"); // outputs calid email pattern
+console.log(validURL);
