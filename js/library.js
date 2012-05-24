@@ -32,7 +32,9 @@ var checkEmail = function(validate) {
 
 // 3 - function Title-case a string (split into words, then uppercase the first letter of each word)
  
-String.prototype.titleCase = function(){ 
+String.prototype.titleCase = function(){
+	var myString = "", // empty string
+		eachWord = this.split(" "); 
 	for(characters in eachWord){ // character for each word
 		myString += ' ' + eachWord[characters].substr(0,1).toUpperCase() + eachWord[characters].substr(1, eachWord[characters].length);
 		// uppercase first letter of each word
