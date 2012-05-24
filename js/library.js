@@ -41,3 +41,16 @@ String.prototype.titleCase = function(){
 	}
 		return myString;
 };
+
+// 4 - function checks string url to make sure the url pattern is correct from the regular expression. Is the string a URL? (Does it start with http: or https:?)
+
+function checkURL(checkIt) {
+var urlCheck= /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/;
+		if (checkIt.match(urlCheck)) {
+			urlCorrect = "Way to go, your URL, " + checkIt + ", is correct!"
+			return urlCorrect;
+			} else {
+				urlIncorrect = "You are too funny, " + myURL + ", doesn't follow correct URL pattern, try again.";
+				return urlIncorrect;	
+	}
+};
