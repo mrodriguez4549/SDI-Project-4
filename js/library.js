@@ -23,7 +23,7 @@ var checkNumbers = /^([0-9]{3})\-([0-9]{3})\-([0-9]{4})$/;
 
 var checkEmail = function(validate) {
 	var checkAddress = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-		if(checkAddress.testvalidate)){
+		if(checkAddress.test(validate)){
 			return true;
 		} else {
 			return false;
