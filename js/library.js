@@ -63,3 +63,26 @@ function partsNeeded() {
 	return parts;
 
 };
+
+// 6 - number Format a number to use a specific number of decimal places, as for money: 2.1 → 2.10
+
+function decNumber(num) {
+	var totalNum = num.toFixed(2)
+	return totalNum;
+};
+
+// 7 - number Find the number of hours and days difference between two dates.
+
+var dateOne = new Date(2014, 1, 1); // new date year, month and date
+var dateTwo = new Date(2012, 5, 10); // new date year, month and date
+var dateSub = dateOne.getTime() - dateTwo.getTime(); // time difference
+var dateM = 1000 * 60 * 60 * 24 
+var timeDifference = Math.ceil(dateSub / dateM); // day difference
+
+
+// 8 - number Given a string version of a number such as "42", return the value as an actual Number, such as 42.
+
+var imFast = function () {
+	myTime = parseInt(speed);
+	return myTime;
+};

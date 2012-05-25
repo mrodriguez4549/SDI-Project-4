@@ -39,3 +39,11 @@ console.log(validURL);
 
 var myParts = "control arms, heads, cam, bolt ons, headers, duals, torque converter";
 console.log("These are the parts I am needing: " + partsNeeded()); // array of parts output
+
+// 6 - number Format a number to use a specific number 
+
+console.log(decNumber(75.55)); // decimal number
+
+// 7 - number Find the number of hours 
+
+console.log("There is " + timeDifference + " days from " + dateOne + " and " + dateTwo + " ."); // difference between both dates 
