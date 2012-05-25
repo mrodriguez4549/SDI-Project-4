@@ -52,3 +52,12 @@ console.log("There is " + timeDifference + " days from " + dateOne + " and " + d
 
 var speed = "8";
 console.log("My best track time was " + imFast() + " seconds flat.");
+
+// 9 - array Given an array of objects
+
+console.log(bestPass); // array of objects sorted by a key
+
+// 10
+
+var numbers = [1, 10, 39, 88, 125, 345];
+console.log(numArray(41));

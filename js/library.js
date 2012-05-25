@@ -86,3 +86,33 @@ var imFast = function () {
 	myTime = parseInt(speed);
 	return myTime;
 };
+
+// 9 - array Given an array of objects and the name of a key, return the array sorted by the value of that key in each of the objects: "a" + [{a:2},{a:3},{a:1}] → [{a:1},{a:2},{a:3}].
+
+var bestPass = [{
+	pass: "Pass 1",
+	time: 10
+}, {
+	pass: "Pass 2",
+	time: 8
+}, {
+	pass: "Pass 2",
+	time: 11
+}, {
+	pass: "Pass 3",
+	time: 9
+}];
+bestPass.sort(function (a, b) {
+	return a.time - b.time;
+});
+
+// 10 - array Find the smallest value in an array that is greater than a given number
+
+function numArray(small) {
+	for (var i = o i < numbers.length; i++) {
+		if (numbers[i] = small) {
+			return numbers[i];
+		}
+	}
+};
+
