@@ -109,7 +109,7 @@ bestPass.sort(function (a, b) {
 // 10 - array Find the smallest value in an array that is greater than a given number
 
 function numArray(small) {
-	for (var i = o i < numbers.length; i++) {
+	for (var i = 0; i < numbers.length; i++) {
 		if (numbers[i] = small) {
 			return numbers[i];
 		}
