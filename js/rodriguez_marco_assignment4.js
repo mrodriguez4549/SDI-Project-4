@@ -47,3 +47,8 @@ console.log(decNumber(75.55)); // decimal number
 // 7 - number Find the number of hours 
 
 console.log("There is " + timeDifference + " days from " + dateOne + " and " + dateTwo + " ."); // difference between both dates 
+
+// 8 - number Given a string version
+
+var speed = "8";
+console.log("My best track time was " + imFast() + " seconds flat.");
